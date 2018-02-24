@@ -289,6 +289,7 @@ footer .address span {
   margin-left: .5em;
   border-radius: 100%;
   float:right;
+  cursor: pointer;
 }
 
 .indicators .indicator.active {
