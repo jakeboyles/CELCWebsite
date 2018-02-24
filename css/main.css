@@ -1,0 +1,296 @@
+body {
+  /* font-family: 'Open Sans', sans-serif; */
+  font-family: 'Raleway', sans-serif;
+}
+
+header {
+  background-color:#252221;
+  height:70px;
+  border-top:5px solid #15686C;
+}
+
+.nav svg {
+  color:#fff;
+  font-size:1.5em;
+  text-align:center;
+  margin-right:.5em;
+  margin-top:.7em;
+}
+
+.nav {
+  text-align:right;
+}
+
+.nav svg:hover {
+  color:#EA7924;
+  cursor: pointer;
+}
+
+.nav .socials {
+  margin-left:5em;
+  display:inline-block;
+}
+
+.container-fluid {
+  padding-left:0;
+  padding-right:0;
+}
+
+.leftDrop {
+  background-color:#f6fafa;
+  height:130px;
+  width:150px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,.3);
+  border-radius:0px 0px 5px 5px;
+}
+
+.leftDrop img {
+  margin:0px auto;
+  margin-top:20px;
+  display:block;
+}
+
+.nav ul {
+  padding-top:0px;
+  margin-left: auto;
+}
+
+.nav li {
+  display:inline;
+  padding-left:30px;
+  padding-top:10px;
+}
+
+.nav a {
+  font-size:.9em;
+  color:#fff;
+  /* text-transform: uppercase; */
+  font-weight: 500;
+}
+
+.nav a:hover {
+  font-weight:700;
+  color: #EA7924;
+  text-decoration:none;
+}
+
+.slider {
+  background-image:url('https://www.cpb.org/sites/default/files/spotlights/Diverse-preschoolers_0.jpg');
+  height:400px;
+  width:100%;
+  background-position: center -150px;
+  background-size: cover;
+  box-shadow: 0px 0px 10px rgba(0,0,0,.4);
+}
+
+.content {
+  margin-top:-90px;
+}
+
+.card {
+  background-color:transparent;
+  border:none;
+}
+
+.cardContainer {
+  border-top:13px solid #0D696D;
+  background-color:#f6fafa;
+  padding:20px 40px;
+  box-sizing:border-box;
+  width:90%;
+  margin-left:5%;
+  box-shadow: 0px 0px 10px rgba(0,0,0,.2);
+  border-radius:0px 0px 5px 5px;
+}
+
+.cardContainer h2 {
+  font-weight:700;
+  font-size:1.3em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.lowerContent {
+  text-align:center;
+  margin-top:3em;
+}
+
+.lowerContent h2 {
+  text-align: center;
+  display:block;
+  width:50%;
+  margin:0px auto;
+  text-transform: uppercase;
+  margin-bottom:.5em;
+  font-weight:700;
+  border-bottom: 2px dashed #EA7924;
+}
+
+.lowerContent p {
+  width:80%;
+  margin-left:10%;
+  position: relative;;
+}
+
+.lowerContent .quote:nth-child(1) {
+  font-size:5em;
+  position: absolute;
+  top:-20px;
+  left:-20px;
+}
+
+.lowerContent .quote:nth-child(2) {
+  position: absolute;
+  top:-20px;
+  right:-20px;
+  font-size:5em;
+}
+
+.quote {
+  opacity:.1;
+}
+
+.lowerContent h2:nth-child(3) {
+  margin-top:50px;
+}
+
+.lowerContent h2:nth-child(5) {
+  margin-top:50px;
+}
+
+.btn-clean {
+  background-color:#EA7924;
+  color:#fff !important;
+  text-transform: uppercase;
+  padding:10px 20px;
+  display: block;
+  margin:0px auto;
+  cursor: pointer;
+  font-weight:600;
+}
+
+.btn-clean:hover {
+  background-color: #034548;
+}
+
+.lowerContent .btn {
+  margin-top:20px;
+}
+
+footer {
+  height:300px;
+  width:100%;
+  background-color: #1B6062;
+  margin-top:5em;
+  padding-top:30px;
+}
+
+footer h2 {
+  font-size:1.2em;
+  color:white;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom:1em;
+  text-transform: uppercase;
+}
+
+footer .links ul {
+  padding:0;
+}
+
+footer .links li {
+  color:#fff;
+  margin-bottom:.5em;
+  list-style:none;
+  text-align:center;
+}
+
+footer li:hover {
+  color: #EA7924;
+  cursor: pointer;
+  font-weight:700;
+}
+
+footer .social svg, footer .contact svg {
+  color: white;
+  margin-bottom: 1em;
+  vertical-align: top;
+  font-size: 1.3em;
+}
+
+footer .social .account, footer .contact .method {
+  color:#fff;
+  vertical-align: top;
+}
+
+footer .method {
+  padding-left:20%;
+}
+
+footer .social span, footer .contact span {
+  vertical-align: top;
+  font-size:.8em;
+  margin-left:.5em;
+}
+
+footer .address svg {
+  height:2em;
+  float:left;
+  vertical-align: top;
+}
+
+footer .address span {
+  vertical-align: bottom;
+  padding-left:1.6em;
+  display:block;
+}
+
+.testimonials {
+  width:70%;
+  margin-left: 10%;
+  margin-top:2em;
+}
+
+.testimonials .image {
+  background-image:url('https://media.nngroup.com/media/people/photos/IMG_2009_copy-retouched-square-closer-800px.jpg.400x400_q95_autocrop_crop_upscale.jpg');
+  width:90px;
+  height:90px;
+  border-radius: 100%;
+  background-size: cover;
+  margin-top:-1em;
+}
+
+.testimonials p {
+  display:inline;
+  margin-left:0
+}
+
+.testimonials .quote:nth-child(1) {
+  position: absolute;
+  left:-8%;
+}
+
+.testimonials .quote:nth-child(2) {
+  position: absolute;
+  right:-60%;
+}
+
+.indicators {
+  float:right;
+  width:100%;
+  margin-top:.2em;
+}
+
+.indicators .indicator {
+  width:.6em;
+  height:.6em;
+  background-color:lightgrey;
+  display:inline-block;
+  margin-left: .5em;
+  border-radius: 100%;
+  float:right;
+}
+
+.indicators .indicator.active {
+  background-color: #EA7924;
+}
