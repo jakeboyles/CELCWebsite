@@ -21,14 +21,23 @@ header {
   text-align:right;
 }
 
+.nav ul {
+  margin-top:10px;
+}
 .nav svg:hover {
   color:#EA7924;
   cursor: pointer;
 }
 
 .nav .socials {
-  margin-left:5em;
+  margin-left:2em;
   display:inline-block;
+}
+
+.nav .socials img {
+  background-color:White;
+  max-height:40px;
+  margin-left:10px;
 }
 
 .container-fluid {
@@ -48,6 +57,7 @@ header {
   margin:0px auto;
   margin-top:20px;
   display:block;
+  cursor: pointer;
 }
 
 .nav ul {
