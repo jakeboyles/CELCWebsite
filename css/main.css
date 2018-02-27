@@ -102,7 +102,6 @@ header {
 }
 
 .nav a:hover {
-  font-weight:700;
   color: #EA7924;
   text-decoration:none;
 }
@@ -216,6 +215,7 @@ footer {
   background-color: #1B6062;
   margin-top:5em;
   padding-top:30px;
+  border-bottom:5px solid #EA7924;
 }
 
 footer h2 {
