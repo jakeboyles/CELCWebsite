@@ -317,6 +317,17 @@ footer .address span {
   margin-top:-1em;
 }
 
+.testimonialsContain .btn, .lower .btn {
+  width:200px;
+  display:inline-block;
+  float:left;
+  margin-top: 2em;
+}
+
+.lower .btn {
+  width: 280px;
+}
+
 .testimonials p {
   display:inline;
   margin-left:0
