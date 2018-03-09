@@ -158,6 +158,31 @@ header {
   border-bottom: 2px dashed #EA7924;
 }
 
+.testimonialsContain h2 {
+  text-transform: uppercase;
+  margin-bottom:.5em;
+  font-weight:700;
+  border-bottom: 2px dashed #EA7924;
+}
+
+.lower h2 {
+  display:block;
+  text-transform: uppercase;
+  margin-bottom:.5em;
+  font-weight:700;
+  border-bottom: 2px dashed #EA7924;
+  width:80%;
+}
+
+.lower {
+  margin-top:3em;
+  margin-bottom: 5em;
+}
+
+.lower p {
+  width: 80%;
+}
+
 .lowerContent p {
   width:80%;
   margin-left:10%;
@@ -279,9 +304,8 @@ footer .address span {
 }
 
 .testimonials {
-  width:70%;
-  margin-left: 10%;
-  margin-top:2em;
+  width:100%;
+  margin-top:7em;
 }
 
 .testimonials .image {
@@ -351,9 +375,25 @@ footer .address span {
 .donate .btn, .stepup .btn {
   margin-top: 2em;
   max-width:200px;
-  border:2px solid white;
   background-color:White;
   color: #000 !important;
+}
+
+img {
+  max-width:100%;
+}
+
+.missionimage {
+  width:500px;
+  height:200px;
+  background-image:url('https://www.greatschools.org/gk/wp-content/uploads/2014/08/Preschool-social-studies-resized-750x325.jpg');
+  margin:0px auto;
+  display:block;;
+}
+
+.donate .btn:hover, .stepup .btn:hover {
+  background-color:#E87832;
+  color:#fff !important;
 }
 
 .donate h2, .donate p, .stepup h2, .stepup p {
