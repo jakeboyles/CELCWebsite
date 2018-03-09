@@ -328,3 +328,46 @@ footer .address span {
 .indicators .indicator.active {
   background-color: #EA7924;
 }
+
+.donate {
+  width:95%;
+  background-color:#15686C;
+  margin-top:3em;
+  margin-bottom:3em;
+  padding:1.5em 1.5em;
+  border-radius:10px;
+}
+
+.stepup {
+  width:95%;
+  background-color:#ED4845;
+  margin-top:3em;
+  margin-bottom:3em;
+  padding:1.5em 1.5em;
+  border-radius:10px;
+  float:right;
+}
+
+.donate .btn, .stepup .btn {
+  margin-top: 2em;
+  max-width:200px;
+  border:2px solid white;
+  background-color:White;
+  color: #000 !important;
+}
+
+.donate h2, .donate p, .stepup h2, .stepup p {
+  text-align:center;
+  display:inline-block;
+  width:100%;
+  color:#fff;
+}
+
+.donate h2, .stepup h2 {
+  font-weight: 600;
+}
+
+.donate p, .stepup p {
+  max-width:700px;
+  margin:0px auto;
+}
