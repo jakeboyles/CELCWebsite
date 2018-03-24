@@ -1,12 +1,16 @@
 body {
-  /* font-family: 'Open Sans', sans-serif; */
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: .01em;
 }
 
 header {
-  background-color:#252221;
+  background-color:#C3B59A;
   height:90px;
   border-top:5px solid #15686C;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Noto Sans', sans-serif !important;
 }
 
 .nav svg {
@@ -96,13 +100,13 @@ header {
 
 .nav a {
   font-size:.9em;
-  color:#fff;
-  /* text-transform: uppercase; */
-  font-weight: 500;
+  color:#000;
+  text-transform: uppercase;
+  font-weight: 600;
 }
 
 .nav a:hover {
-  color: #EA7924;
+  color: #fff;
   text-decoration:none;
 }
 
@@ -112,7 +116,7 @@ header {
   width:100%;
   background-position: center center;
   background-size: cover;
-  box-shadow: 0px 0px 10px rgba(0,0,0,.4);
+  box-shadow: 0px 0px 5px rgba(0,0,0,.3);
 }
 
 .content {
@@ -156,6 +160,7 @@ header {
   margin-bottom:.5em;
   font-weight:700;
   border-bottom: 2px dashed #EA7924;
+  
 }
 
 .testimonialsContain h2 {
@@ -209,6 +214,7 @@ header {
 
 .lowerContent h2:nth-child(3) {
   margin-top:50px;
+  border-bottom:2px solid rg
 }
 
 .lowerContent h2:nth-child(5) {
@@ -245,11 +251,16 @@ footer {
 
 footer h2 {
   font-size:1.2em;
-  color:white;
+  color:#fff;
   font-weight: 700;
   text-align: center;
   margin-bottom:1em;
   text-transform: uppercase;
+  border-bottom:2px solid rgba(255,255,255, .2);
+  width: 60%;
+  margin:0px auto;
+  margin-bottom:1em;
+  padding-bottom:10px;
 }
 
 footer .links ul {
@@ -314,13 +325,12 @@ footer .address span {
   height:90px;
   border-radius: 100%;
   background-size: cover;
-  margin-top:-1em;
+  margin-top:1em;
 }
 
 .testimonialsContain .btn, .lower .btn {
   width:200px;
   display:inline-block;
-  float:left;
   margin-top: 2em;
 }
 
@@ -375,7 +385,7 @@ footer .address span {
 
 .stepup {
   width:95%;
-  background-color:#ED4845;
+  background-color:#C3B59A;
   margin-top:3em;
   margin-bottom:3em;
   padding:1.5em 1.5em;
