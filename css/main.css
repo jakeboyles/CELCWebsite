@@ -117,7 +117,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .nav a:hover {
-  color: #fff;
+  color: #EC5B57;
   text-decoration:none;
 }
 
@@ -140,7 +140,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .cardContainer {
-  border-top:13px solid #2D5D61;
+  border-top:13px solid #367E7F;
   background-color:#f6fafa;
   padding:20px 40px;
   box-sizing:border-box;
@@ -170,7 +170,7 @@ h1,h2,h3,h4,h5,h6 {
   text-transform: uppercase;
   margin-bottom:.5em;
   font-weight:700;
-  border-bottom: 2px dashed #2D5D61;
+  border-bottom: 2px dashed #367E7F;
   
 }
 
@@ -178,7 +178,7 @@ h1,h2,h3,h4,h5,h6 {
   text-transform: uppercase;
   margin-bottom:.5em;
   font-weight:700;
-  border-bottom: 2px dashed #72CAC4;
+  border-bottom: 2px dashed #367E7F;
 }
 
 .lower h2 {
@@ -186,7 +186,7 @@ h1,h2,h3,h4,h5,h6 {
   text-transform: uppercase;
   margin-bottom:.5em;
   font-weight:700;
-  border-bottom: 2px dashed #72CAC4;
+  border-bottom: 2px dashed #367E7F;
   width:80%;
 }
 
@@ -254,7 +254,7 @@ h1,h2,h3,h4,h5,h6 {
 footer {
   height:300px;
   width:100%;
-  background-color: #1B6062;
+  background-color: #367E7F;
   margin-top:5em;
   padding-top:30px;
   border-bottom:5px solid #72CAC4;
@@ -402,7 +402,7 @@ footer .address span {
 
 .stepup {
   width:95%;
-  background-color:#305E61;
+  background-color:#367E7F;
   margin-top:3em;
   margin-bottom:3em;
   padding:1.5em 1.5em;
