@@ -1,12 +1,23 @@
 body {
   font-family: 'Open Sans', sans-serif;
   letter-spacing: .01em;
+  overflow-x: hidden;
+}
+
+.container-fluid {
+  overflow-x: hidden;
 }
 
 header {
-  background-color:#C3B59A;
+  background-color:#CCE4DA;
   height:90px;
-  border-top:5px solid #15686C;
+}
+
+.step {
+  border: 1px solid #204F8E;
+  padding:3px;
+  box-sizing: content-box;
+  max-height:35px !important;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -50,14 +61,14 @@ h1,h2,h3,h4,h5,h6 {
   margin-top:10px;
 }
 .nav svg:hover {
-  color:#EA7924;
+  color:#EC5B57;
   cursor: pointer;
 }
 
 .nav .socials {
   margin-left:2em;
   display:inline-block;
-  float:left;
+  float: left;
   margin-top:20px;
 }
 
@@ -74,7 +85,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .leftDrop {
-  background-color:#f6fafa;
+  background-color:#ffff;
   height:130px;
   width:150px;
   box-shadow: 0px 0px 10px rgba(0,0,0,.3);
@@ -129,7 +140,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .cardContainer {
-  border-top:13px solid #0D696D;
+  border-top:13px solid #2D5D61;
   background-color:#f6fafa;
   padding:20px 40px;
   box-sizing:border-box;
@@ -159,7 +170,7 @@ h1,h2,h3,h4,h5,h6 {
   text-transform: uppercase;
   margin-bottom:.5em;
   font-weight:700;
-  border-bottom: 2px dashed #EA7924;
+  border-bottom: 2px dashed #2D5D61;
   
 }
 
@@ -167,7 +178,7 @@ h1,h2,h3,h4,h5,h6 {
   text-transform: uppercase;
   margin-bottom:.5em;
   font-weight:700;
-  border-bottom: 2px dashed #EA7924;
+  border-bottom: 2px dashed #72CAC4;
 }
 
 .lower h2 {
@@ -175,7 +186,7 @@ h1,h2,h3,h4,h5,h6 {
   text-transform: uppercase;
   margin-bottom:.5em;
   font-weight:700;
-  border-bottom: 2px dashed #EA7924;
+  border-bottom: 2px dashed #72CAC4;
   width:80%;
 }
 
@@ -214,7 +225,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .lowerContent h2:nth-child(3) {
   margin-top:50px;
-  border-bottom:2px solid rg
+  border-bottom:2px solid #EC5B57;
 }
 
 .lowerContent h2:nth-child(5) {
@@ -222,7 +233,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .btn-clean {
-  background-color:#EA7924;
+  background-color:#EC5B57;
   color:#fff !important;
   text-transform: uppercase;
   padding:10px 20px;
@@ -233,7 +244,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .btn-clean:hover {
-  background-color: #034548;
+  background-color: #EC5B57;
 }
 
 .lowerContent .btn {
@@ -246,7 +257,7 @@ footer {
   background-color: #1B6062;
   margin-top:5em;
   padding-top:30px;
-  border-bottom:5px solid #EA7924;
+  border-bottom:5px solid #72CAC4;
 }
 
 footer h2 {
@@ -275,7 +286,7 @@ footer .links li {
 }
 
 footer li:hover {
-  color: #EA7924;
+  color: #72CAC4;
   cursor: pointer;
   font-weight:700;
 }
@@ -294,6 +305,12 @@ footer .social .account, footer .contact .method {
 
 footer .method {
   padding-left:20%;
+}
+
+header .donate {
+  color: #fff;
+  padding:8px 15px;
+  border-radius:2px;
 }
 
 footer .social span, footer .contact span {
@@ -371,12 +388,12 @@ footer .address span {
 }
 
 .indicators .indicator.active {
-  background-color: #EA7924;
+  background-color: #72CAC4;
 }
 
 .donate {
   width:95%;
-  background-color:#15686C;
+  background-color:#EC5B57;
   margin-top:3em;
   margin-bottom:3em;
   padding:1.5em 1.5em;
@@ -385,7 +402,7 @@ footer .address span {
 
 .stepup {
   width:95%;
-  background-color:#C3B59A;
+  background-color:#305E61;
   margin-top:3em;
   margin-bottom:3em;
   padding:1.5em 1.5em;
@@ -413,8 +430,8 @@ img {
 }
 
 .donate .btn:hover, .stepup .btn:hover {
-  background-color:#E87832;
-  color:#fff !important;
+  background-color:#fff;
+  color:#000 !important;
 }
 
 .donate h2, .donate p, .stepup h2, .stepup p {
