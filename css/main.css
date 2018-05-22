@@ -14,7 +14,6 @@ header {
 }
 
 .step {
-  border: 1px solid #204F8E;
   padding:3px;
   box-sizing: content-box;
   max-height:35px !important;
@@ -35,7 +34,7 @@ h1,h2,h3,h4,h5,h6 {
 .nav .topNav {
   float:right;
   clear:right;
-  font-size:.7em;
+  font-size:.8em;
   height:1em;
   vertical-align: top;
   text-transform: uppercase;
@@ -48,7 +47,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .nav .mainNav {
-  margin-top:-60px;
+  margin-top:-70px;
   clear:right;
   vertical-align: top;
 }
@@ -61,22 +60,21 @@ h1,h2,h3,h4,h5,h6 {
   margin-top:10px;
 }
 .nav svg:hover {
-  color:#EC5B57;
+  color:#7C71C5;
   cursor: pointer;
 }
 
-.nav .socials {
-  margin-left:2em;
+.leftDrop .socials {
   display:inline-block;
-  float: left;
-  margin-top:20px;
+  margin:0px auto;
+  margin-left:2em;
 }
 
-.nav .socials img {
+.leftDrop .socials img {
   background-color:White;
   max-height:40px;
-  margin-right:30px;
-  margin-left:10px;
+  float:left;
+  margin-right:1em;
 }
 
 .container-fluid {
@@ -86,7 +84,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .leftDrop {
   background-color:#ffff;
-  height:130px;
+  height:190px;
   width:150px;
   box-shadow: 0px 0px 10px rgba(0,0,0,.3);
   border-radius:0px 0px 5px 5px;
@@ -106,7 +104,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .nav li {
   display:inline;
-  padding-left:30px;
+  padding-left:20px;
 }
 
 .nav a {
@@ -117,7 +115,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .nav a:hover {
-  color: #EC5B57;
+  color: #7C71C5;
   text-decoration:none;
 }
 
@@ -225,7 +223,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .lowerContent h2:nth-child(3) {
   margin-top:50px;
-  border-bottom:2px solid #EC5B57;
+  border-bottom:2px solid #7C71C5;
 }
 
 .lowerContent h2:nth-child(5) {
@@ -233,7 +231,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .btn-clean {
-  background-color:#EC5B57;
+  background-color:#7C71C5;
   color:#fff !important;
   text-transform: uppercase;
   padding:10px 20px;
@@ -244,7 +242,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .btn-clean:hover {
-  background-color: #EC5B57;
+  background-color: #7C71C5;
 }
 
 .lowerContent .btn {
@@ -393,7 +391,7 @@ footer .address span {
 
 .donate {
   width:95%;
-  background-color:#EC5B57;
+  background-color:#7C71C5;
   margin-top:3em;
   margin-bottom:3em;
   padding:1.5em 1.5em;
@@ -448,4 +446,8 @@ img {
 .donate p, .stepup p {
   max-width:700px;
   margin:0px auto;
+}
+
+.donate:hover {
+  color:#fff !important;
 }
